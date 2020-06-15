@@ -2189,3 +2189,40 @@ input, select, textarea {
 			}
 
 		}
+
+		body {
+			background: linear-gradient(-45deg, #ee7752, #9213ac, #1783ca, #23d5ab);
+			background-size: 400% 400%;
+			animation: gradient 15s ease infinite;
+		}
+		
+		@keyframes gradient {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+
+#main-title{
+	border: 1px solid red;
+	text-align: center;
+	margin-bottom: 10%;
+	color: white;
+	height: 10vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.title{
+	color: white;
+}
+
+.title2{
+	color: rgba(255, 255, 255, 0.767);
+}
