@@ -2176,22 +2176,22 @@ input, select, textarea {
 		}
 
 		body {
-			background: linear-gradient(-45deg, #ee7752, #ac138b, #1783ca, #23d5ab);
+			background: linear-gradient(-45deg, #db5228, #ac138b, #1783ca, #23d5ab);
 			background-size: 400% 400%;
 			/* background-size: 100% 100%; */
-			animation: gradient 15s ease infinite;
+			animation: gradient 25s ease infinite;
 		}
 		
 		@keyframes gradient {
 			0% {
-				background-position: 0% 100%;
+				background-position: 0% 20%;
 			}
 			
 			50% {
 				background-position: 100% 100%;
 			}
 			100% {
-				background-position: 0% 100%;
+				background-position: 0% 20%;
 			}
 		}
 
@@ -2247,6 +2247,23 @@ input, select, textarea {
 	color: rgba(0, 0, 0, 0.60);
 }
 .spacer{
-	border: 1px solid #bb169f ;
+	border: 1px solid #1783ca ;
 	margin: 10px;
+}
+
+#project-intro{
+	text-align: center;
+}
+
+.project{
+	/* border: 1px solid red; */
+	display: flex;
+	width: 100%;
+}
+.project-img{
+	width: 25%;
+}
+.project-text{
+	width: 75%;
+	/* border: 1px solid green; */
 }
