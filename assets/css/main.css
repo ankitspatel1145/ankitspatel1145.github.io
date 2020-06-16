@@ -2249,6 +2249,13 @@ input, select, textarea {
 .spacer{
 	border: 1px solid #1783ca ;
 	margin: 10px;
+	width: 90%;
+}
+.spacer2{
+	border: 1px solid #1783ca ;
+	margin: 10px;
+	margin-bottom: 20px;
+	width: 50%;
 }
 
 #project-intro{
@@ -2265,8 +2272,7 @@ input, select, textarea {
 .project-img >img {
 	width: 100%;
 	border-radius: 10px;
-	/* border: 3px solid red; */
-
+	
 }
 .project-text{
 	width: 100%;
@@ -2280,4 +2286,21 @@ input, select, textarea {
 }
 a {
 	text-decoration: none;
+}
+#test {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+#about p {
+	color: #242424;
+}
+.about-div h1{
+	/* border: 1px solid red; */
+	margin-bottom: 2vh;
+	margin-top: 4vh;
+}
+#email{
+	color: white;
 }
