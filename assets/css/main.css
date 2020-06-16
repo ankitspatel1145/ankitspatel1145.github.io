@@ -2145,31 +2145,33 @@ input, select, textarea {
 	#footer {
 		color: rgba(255, 255, 255, 0.45);
 		text-align: center;
-		padding: 2em 0 0 0;
+		padding: 3em 0 0 0;
 		font-size: 0.75em;
+		width: 50%;
+		/* border: 1px solid green; */
+		display: flex;
+		justify-content: space-evenly;
 	}
 
-		#footer a {
-			color: #ddd;
-			color: rgba(255, 255, 255, 0.65);
-			-moz-transition: color .25s ease-in-out;
-			-webkit-transition: color .25s ease-in-out;
-			-ms-transition: color .25s ease-in-out;
-			transition: color .25s ease-in-out;
+		#footer div {
+
+			/* border: 1px solid yellow; */
+			padding: 1em 1em 0 1em;
+			border-radius: 10px;
+			transition: 0.4s;
+			
+		}
+		#footer div:hover {
+			background-color: white;
 		}
 
-			#footer a:hover {
-				color: white;
-			}
 
+	
 		
 
 		@media screen and (max-width: 736px) {
 
-			#footer .copyright li {
-				padding-left: 0.5em;
-				margin-left: 0.5em;
-			}
+
 
 		}
 
