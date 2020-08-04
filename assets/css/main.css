@@ -2267,7 +2267,7 @@ input, select, textarea {
 	width: 100%;
 }
 
-.project-img >img {
+.project-img img {
 	width: 100%;
 	border-radius: 10px;
 	
@@ -2276,6 +2276,7 @@ input, select, textarea {
 	width: 100%;
 }
 .project-links{
+	
 	display: flex;
 	border-bottom: 2px solid #ac138b;
 	justify-content: space-between;
@@ -2285,6 +2286,15 @@ input, select, textarea {
 a {
 	text-decoration: none;
 }
+.project-links a {
+	color: #1783ca;
+	text-decoration: underline;
+}
+.project-links a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
 #test {
 	display: flex;
 	flex-direction: column;
